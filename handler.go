@@ -1,8 +1,8 @@
 package shadiaosocketio
 
 import (
-	"github.com/Baiguoshuai1/shadiaosocketio/protocol"
-	"github.com/Baiguoshuai1/shadiaosocketio/utils"
+	"github.com/Matzoh/shadiaosocketio/protocol"
+	"github.com/Matzoh/shadiaosocketio/utils"
 	"github.com/buger/jsonparser"
 	"reflect"
 	"strconv"

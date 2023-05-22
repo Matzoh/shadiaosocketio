@@ -1,8 +1,8 @@
 package shadiaosocketio
 
 import (
-	"github.com/Baiguoshuai1/shadiaosocketio/protocol"
-	"github.com/Baiguoshuai1/shadiaosocketio/websocket"
+	"github.com/Matzoh/shadiaosocketio/protocol"
+	"github.com/Matzoh/shadiaosocketio/websocket"
 	"net"
 	"strconv"
 )

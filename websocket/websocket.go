@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"crypto/tls"
 	"errors"
-	"github.com/Baiguoshuai1/shadiaosocketio/protocol"
-	"github.com/Baiguoshuai1/shadiaosocketio/utils"
+	"github.com/Matzoh/shadiaosocketio/protocol"
+	"github.com/Matzoh/shadiaosocketio/utils"
 	"github.com/gorilla/websocket"
 	"github.com/ugorji/go/codec"
 	"io"
@@ -268,8 +268,8 @@ type Transport struct {
 	BufferSize    int
 	BinaryMessage bool
 
-	UnsecureTLS   bool
-	TLSConfig     *tls.Config
+	UnsecureTLS bool
+	TLSConfig   *tls.Config
 
 	RequestHeader http.Header
 }

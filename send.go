@@ -2,7 +2,7 @@ package shadiaosocketio
 
 import (
 	"errors"
-	"github.com/Baiguoshuai1/shadiaosocketio/protocol"
+	"github.com/Matzoh/shadiaosocketio/protocol"
 	"log"
 	"time"
 )

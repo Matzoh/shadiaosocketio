@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/Baiguoshuai1/shadiaosocketio"
-	"github.com/Baiguoshuai1/shadiaosocketio/websocket"
+	"github.com/Matzoh/shadiaosocketio"
+	"github.com/Matzoh/shadiaosocketio/websocket"
 	"github.com/buger/jsonparser"
 	"log"
 	"time"

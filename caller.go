@@ -2,7 +2,7 @@ package shadiaosocketio
 
 import (
 	"errors"
-	"github.com/Baiguoshuai1/shadiaosocketio/utils"
+	"github.com/Matzoh/shadiaosocketio/utils"
 	"reflect"
 )
 

@@ -8,7 +8,7 @@ Examples directory contains simple client and server.
 ### Get It
 
 ```sh
-go get -u github.com/Baiguoshuai1/shadiaosocketio
+go get -u github.com/Matzoh/shadiaosocketio
 ```
 
 ### Debug
@@ -22,8 +22,8 @@ DEBUG=1 go run server.go
 package main
 
 import (
-	"github.com/Baiguoshuai1/shadiaosocketio"
-	"github.com/Baiguoshuai1/shadiaosocketio/websocket"
+	"github.com/Matzoh/shadiaosocketio"
+	"github.com/Matzoh/shadiaosocketio/websocket"
 	"log"
 	"net/http"
 	"time"
@@ -90,8 +90,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/Baiguoshuai1/shadiaosocketio"
-	"github.com/Baiguoshuai1/shadiaosocketio/websocket"
+	"github.com/Matzoh/shadiaosocketio"
+	"github.com/Matzoh/shadiaosocketio/websocket"
 	"log"
 	"time"
 )

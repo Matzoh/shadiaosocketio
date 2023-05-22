@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Baiguoshuai1/shadiaosocketio"
-	"github.com/Baiguoshuai1/shadiaosocketio/websocket"
+	"github.com/Matzoh/shadiaosocketio"
+	"github.com/Matzoh/shadiaosocketio/websocket"
 	"log"
 	"net/http"
 	"time"

@@ -2,9 +2,9 @@ package shadiaosocketio
 
 import (
 	"errors"
-	"github.com/Baiguoshuai1/shadiaosocketio/protocol"
-	"github.com/Baiguoshuai1/shadiaosocketio/utils"
-	"github.com/Baiguoshuai1/shadiaosocketio/websocket"
+	"github.com/Matzoh/shadiaosocketio/protocol"
+	"github.com/Matzoh/shadiaosocketio/utils"
+	"github.com/Matzoh/shadiaosocketio/websocket"
 	"net"
 	"net/http"
 	"sync"
