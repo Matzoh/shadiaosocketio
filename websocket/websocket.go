@@ -299,6 +299,9 @@ func (wst *Transport) HandleConnection(
 	upgrade := &websocket.Upgrader{
 		ReadBufferSize:  wst.BufferSize,
 		WriteBufferSize: wst.BufferSize,
+		CheckOrigin: func(r *http.Request) bool {
+			return true
+		},
 	}
 	socket, err := upgrade.Upgrade(w, r, nil)
 	if err != nil {
